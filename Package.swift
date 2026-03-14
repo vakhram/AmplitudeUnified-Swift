@@ -26,7 +26,7 @@ let package = Package(
         .target(
             name: "AmplitudeUnified",
             dependencies: [
-                .product(name: "AmplitudeSwiftVakhram",
+                .product(name: "AmplitudeSwift",
                          package: "Amplitude-Swift"),
                 .product(name: "AmplitudeSessionReplay",
                          package: "AmplitudeSessionReplay-iOS",
